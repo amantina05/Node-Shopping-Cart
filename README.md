@@ -1,6 +1,6 @@
-# Node Shopping Cart
-
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
+
+# Node Shopping Cart
 
 ## Project Summary
 In this project we will cover how to use sessions, middleware, and url parameters by creating a shopping cart. We will do this by making an `express` server that stores a user's shopping cart on their session and have endpoints that can `update`, `delete`, and `read` items from their shopping cart. We'll test these endpoints using postman. 
