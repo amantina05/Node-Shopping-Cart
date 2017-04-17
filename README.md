@@ -5,12 +5,18 @@
 ## Project Summary
 In this project we will cover how to use sessions, middleware, and url parameters by creating a shopping cart. We will do this by making an `express` server that stores a user's shopping cart on their session and have endpoints that can `update`, `delete`, and `read` items from their shopping cart. We'll test these endpoints using postman. 
 
+## Setup
+
+Before getting started with this repository run `npm install` when in the root of the project.
+
 ## Step 1
 
 ### Summary
+
 In this step we will install and require `express-session` to use with our express application.
 
 ### Instructions
+
 In the root of the project run `npm install --save express-session`. After installing it, open `index.js` and on line 2 require the express-session package.
 
 ### Solution
