@@ -7,7 +7,7 @@ In this project we will cover how to use sessions, middleware, and url parameter
 
 ## Setup
 
-Before getting started with this repository run `npm install` when in the root of the project.
+Before getting started with this repository run `npm install` when in the root of the project. Also make sure that you are using Node version 7.5.0 or greator ( `node --version` ).
 
 ## Step 1
 
