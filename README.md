@@ -37,3 +37,14 @@ app.listen(3000, () => console.log('Server initiated on port 3000'));
 ```
 
 </details>
+
+## Step 2
+
+### Summary
+
+In this step we will use `express-session` by using middleware. You can think of middleware as functions that are called before reaching the endpoint of a request. Middleware functions take three parameters in the following order: the request object, the response object, and the next function. The next function must be called before the request can make it to an endpoint. When using express you can create middleware by using the use method: `app.use()` with the first parameter being a function.
+
+When we required `express-session` it returned a function that we can invoke with an object. This object we create will configure our session. There are many options you can configure but we will stick with the basics: `secret`, `resave`, `saveUninitialized`, and `cookie`. You can find all the customizable options [here](https://github.com/expressjs/session).
+
+### Instructions
+
